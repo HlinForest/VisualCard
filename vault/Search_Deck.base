@@ -1,0 +1,14 @@
+filters:
+  - field: tags
+    op: contains
+    value: contact
+  - field: uid
+    op: containsAnyOf
+    value: []
+sort:
+  - field: meet_date
+    dir: desc
+views:
+  - type: cards
+    title: 检索结果
+    fields: [image_path, name, company, role, region, industry, meet_event]
