@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+vault/originals/*/
+!vault/originals/.gitkeep
+vault/contacts/*.md
+vault/attachments/*
+!vault/attachments/.gitkeep
+vault/processed_msg_ids.sqlite
+vault/dingtalk_rows.json
+vault/slices/

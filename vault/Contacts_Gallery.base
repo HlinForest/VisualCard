@@ -1,0 +1,11 @@
+filters:
+  - field: tags
+    op: contains
+    value: contact
+sort:
+  - field: meet_date
+    dir: desc
+views:
+  - type: cards
+    title: 名片墙
+    fields: [image_path, name, company, role, region, industry, meet_event]
